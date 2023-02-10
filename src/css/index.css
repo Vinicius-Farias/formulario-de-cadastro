@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+body {
+    background-color: #f0ffff; 
+}
+body p {
+    color: #3f0d9c;
+    font-weight: 800;
+}
+article {
+    display: flex;
+      justify-content: center;
+     font-weight: bold;
+}
+
+.container {
+    width: 990px;
+   display: flex;
+   background-color: #f0ffff;
+    height: auto;
+   margin-top: 100px;
+    justify-content: center;
+     flex-direction: column;
+}
+
+.cabecalho {
+    text-align: center;
+    
+}
+.cabecalho h1 {
+    color: #3f0d9c;
+    font-size: 40px;
+}
+
+.cabecalho p {
+    color: #6932cf;
+    font-weight: 600;
+}
+
+.desc {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 366px;
+    
+}
+.desc label {
+    color: #3f0d9c;
+    font-weight: 800;
+}
+.desc input {
+margin-bottom: 10px;
+padding-top: 5px;
+border-radius: 5px;
+}
+
+.formulario {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  margin-top: 40px;
+  width: 370;
+  align-items: center;
+}
+
+.formulario .desc input{
+    margin-right: 10px;
+    margin-top: 10px;
+   padding-bottom: 5px;
+    
+}
+
+.formulario .desc label {
+    margin-top: 10px;
+   
+}
+
+.marcacao {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.marcacao label {
+    padding-top: 5px;
+    color: #6932cf;
+    font-weight: 500;
+}
+
+.select {
+    margin-bottom: 20px;
+}
+
+.tec {
+    margin-bottom: 20px;
+    
+}
+
+.tec #tec2 {
+  margin-top: 10px;
+}
+
+.tec #tec2 label {
+    color: #6932cf;
+    font-weight: 500;
+}
+
+#descricao textarea {
+   width: 410px;
+   height: 150px;
+   border-radius: 5px;
+}
+
+#butao {
+   margin-top: 20px;
+   margin-bottom: 30px;
+    justify-content: center;
+    display: flex;
+}
+
+#butao button {
+    color: white;
+    padding: 5px;
+    background-color: #6932cf;
+    border-radius: 5px;
+    width: 100px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+@media (max-width:450px) {
+   
+
+  
+
+    .cabecalho h1{
+        font-size: 30px;
+    }
+    .cabecalho p {
+        font-size: 15px;
+    }
+    .desc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 280px;
+       
+    }
+
+
+
+    .marcacao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+        margin-bottom: 40px;
+    }
+
+    .marcacao p {
+        font-size: 13px;
+    }
+
+    .marcacao label {
+        font-size: 13px;
+    }
+
+    .select {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #tec2 {
+        display: flex;
+        flex-wrap: wrap;
+       
+        width: 300px;
+    }
+    .tec p {
+        font-size: 13px;
+    }
+    .tec label {
+        font-size: 13px;
+    }
+
+    #descricao p {
+        font-size: 13px;
+        
+    }
+
+    #descricao #sobre {
+        width: 295px;
+    }
+
+    #butao {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:320px) {
+    .cabecalho h1{
+       font-size: 27px;
+}
+
+.desc {
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    width: 250px;
+   
+}
+
+#descricao #sobre {
+    width: 250px;
+}
+
+
+#tec2, .tec p {
+    display: flex;
+    flex-wrap: wrap;
+   
+    width: 240px;
+}
+.container {
+    padding-left: 3px;
+}
+
+}
+
+
